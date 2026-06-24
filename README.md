@@ -2,6 +2,10 @@
 
 Coffee Land is a modern café and restaurant website built with React, TypeScript, Vite, and Tailwind CSS. The website showcases the café's menu, ambiance, gallery, customer experience, and an online ordering page.
 
+## Live Demo
+
+🔗 https://future-fs-03-shuj.vercel.app/
+
 ## 🚀 Features
 
 * Responsive modern UI
