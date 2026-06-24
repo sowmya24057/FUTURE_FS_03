@@ -1,32 +1,89 @@
-# React + TypeScript + Vite
+# ☕ Coffee Land – Café & Resto Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Coffee Land is a modern café and restaurant website built with React, TypeScript, Vite, and Tailwind CSS. The website showcases the café's menu, ambiance, gallery, customer experience, and an online ordering page.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Responsive modern UI
+* Hero section with café branding
+* Menu showcase
+* About section
+* Gallery section
+* Customer reviews
+* Visit & contact information
+* Online ordering page
+* Mobile-friendly design
+* Fast performance using Vite
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* React Router DOM
+* Lucide React Icons
 
-## Expanding the Oxlint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```text
+src/
+├── assets/
+│   └── cl/
+├── components/
+│   └── ui/
+├── pages/
+│   ├── Home.tsx
+│   └── Order.tsx
+├── App.tsx
+├── main.tsx
+└── styles.css
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sowmya24057/FUTURE_FS_03.git
+```
+
+Navigate to the project:
+
+```bash
+cd FUTURE_FS_03
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## 👩‍💻 Author
+
+**V. Sowmya Sri**
